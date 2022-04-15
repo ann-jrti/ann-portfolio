@@ -1,0 +1,15 @@
+@import "./../../../scss/base/variables";
+
+.home__author-container {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+}
+
+.home__author {
+    font-size: 5rem;
+    color: $red;
+    font-weight: 900;
+    font-family: "Moriston";
+}

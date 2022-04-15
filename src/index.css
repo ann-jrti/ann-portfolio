@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;0,800;0,900;1,300;1,400;1,900&display=swap'); */
+/* Moriston font */
 
 @font-face {
   font-family: 'Moriston';
@@ -48,6 +48,8 @@
   font-style: normal;
 }
 
+/* Alegreya font */
+
 @font-face {
   font-family: 'Alegreya';
   src: local('Alegreya'),
@@ -56,6 +58,27 @@
   font-style: normal;
 }
 
-html {
-  font-family: 'Moriston';
+/* Rubik font */
+
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik'), url('/src/fonts/Rubik-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* B612 font */
+
+@font-face {
+  font-family: 'B612';
+  src: local('B612'), url('/src/fonts/B612-Regular.ttf') format('truetype');
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'B612';
+  src: local('B612'), url('/src/fonts/B612-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }

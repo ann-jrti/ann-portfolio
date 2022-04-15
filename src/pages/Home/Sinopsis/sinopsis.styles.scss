@@ -1,0 +1,16 @@
+@import "./../../../scss/base/variables";
+
+.info__container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+}
+
+.info__text {
+    display: flex;
+    flex-direction: column;
+    color: $white;
+}

@@ -1,5 +1,14 @@
 import './home.styles.scss';
+import { Menu } from './Sinopsis/Sinopsis';
+import { Name } from './Name/Name';
+import { Nav } from './Nav/Nav';
 
 export const Home = () => {
-  return <div className="hi">Andrea</div>;
+  return (
+    <main className="home">
+      <Nav></Nav>
+      <Name></Name>
+      <Menu></Menu>
+    </main>
+  );
 };
