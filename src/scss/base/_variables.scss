@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;0,800;0,900;1,300;1,400;1,900&display=swap");
+
+@font-face {
+    font-family: "Moriston";
+    src: local("Moriston"), url("./../../fonts/MoristonPersonal-Black.otf") format("truetype");
+    font-weight: bold;
+}
+
+$mainFont: "Moriston";
+
+// blue team
+$blue: rgb(0, 51, 255);
+$darkGrey: rgb(28, 28, 28);
+$lightGrey: rgb(213, 213, 213);
+$white: rgb(255, 255, 255);
+$yellow: rgb(245, 238, 158);
+
+// red team
+$red: rgb(225, 49, 49);
+$darkGrey: rgb(28, 28, 28);
+$lightGrey: rgb(213, 213, 213);
+$white: rgb(255, 255, 255);
+$yellow: rgb(245, 238, 158);

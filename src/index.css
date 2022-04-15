@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;0,800;0,900;1,300;1,400;1,900&display=swap'); */
+
+@font-face {
+  font-family: 'Moriston';
+  src: local('Moriston'),
+    url('/src/fonts/MoristonPersonal-Black.otf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Moriston';
+  src: local('Moriston'),
+    url('/src/fonts/MoristonPersonal-Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Moriston';
+  src: local('Moriston'),
+    url('/src/fonts/MoristonPersonal-Semibold.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Moriston';
+  src: local('Moriston'),
+    url('/src/fonts/MoristonPersonal-Medium.otf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Moriston';
+  src: local('Moriston'),
+    url('/src/fonts/MoristonPersonal-Regular.otf') format('truetype');
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Moriston';
+  src: local('Moriston'),
+    url('/src/fonts/MoristonPersonal-Light.otf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: local('Alegreya'),
+    url('/src/fonts/Alegreya-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: 'Moriston';
 }
