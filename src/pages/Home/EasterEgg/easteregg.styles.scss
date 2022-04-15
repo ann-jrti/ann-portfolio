@@ -4,12 +4,31 @@
 
 .hey-dog__container {
     position: absolute;
-    z-index: 1;
-    transition-duration: 1s;
+    margin-left: -8rem;
+    margin-top: -5.5rem;
+    transform: scale(-1, 1);
+}
 
-    &:hover {
-        transform: scale(2);
-        margin-left: 30rem;
-        transform: rotate(-50deg);
+.hey-dog__animation {
+    // transition-duration: 1.8s;
+    // transition-timing-function: ease-in;
+    // animation-iteration-count: infinite;
+    // margin-left: 18rem;
+    animation-name: doggy;
+    animation-duration: 6s;
+}
+
+@keyframes doggy {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 22rem;
+    }
+    100% {
+        left: 0rem;
+        top: 0px;
     }
 }

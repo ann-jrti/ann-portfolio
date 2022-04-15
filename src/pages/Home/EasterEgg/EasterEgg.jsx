@@ -1,16 +1,20 @@
 import './easteregg.styles.scss';
 import heyDog from '../../../assets/ann-transparent.png';
-import { WhistleButton } from './WhistleButton/WhistleButton';
-import styledComponents from 'styled-components';
-
-const Stt = styledComponents.style.div`
- display: none;
-`;
+import { WhistleContext } from '../../../context/whistle-context';
+import { useContext, useEffect } from 'react';
 
 export const EasterEgg = () => {
+  const [whistle, setWhistle] = useContext(WhistleContext);
+  useEffect(() => {
+    console.log('click');
+  }, [whistle]);
+
   return (
-    <Stt className="hey-dog__container">
+    <div
+      id="hey-dog"
+      className={`hey-dog__container ${whistle ? 'hey-dog__animation' : ''}`}
+    >
       <img className="hey-dog" src={heyDog}></img>
-    </Stt>
+    </div>
   );
 };
