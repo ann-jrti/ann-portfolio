@@ -11,7 +11,7 @@ export const Menu = () => {
 
       <div className="info__text">
         <a
-          classname="info__text-github"
+          className="info__text-github"
           target="_blank"
           href="https://github.com/ann-jrti"
         >
