@@ -1,5 +1,7 @@
 @import "./../../../scss/base/variables";
 
+$a-tags: "a, a:active, a:hover, a:visited";
+
 .info__container {
     display: flex;
     flex-direction: row;
@@ -13,4 +15,8 @@
     display: flex;
     flex-direction: column;
     color: $white;
+}
+
+#{$a-tags} {
+    color: white;
 }

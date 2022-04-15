@@ -1,4 +1,5 @@
 @import "./base/variables";
+@import "../scss/base/variables";
 
 * {
     margin: 0;
@@ -11,18 +12,5 @@ body {
     background-color: $blue;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
-
-// blue team
-$blue: rgb(0, 51, 255);
-$darkGrey: rgb(28, 28, 28);
-$lightGrey: rgb(213, 213, 213);
-$white: rgb(255, 255, 255);
-$yellow: rgb(245, 238, 158);
-
-// red team
-$red: rgb(225, 49, 49);
-$darkGrey: rgb(28, 28, 28);
-$lightGrey: rgb(213, 213, 213);
-$white: rgb(255, 255, 255);
-$yellow: rgb(245, 238, 158);

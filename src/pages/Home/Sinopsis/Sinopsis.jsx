@@ -10,7 +10,14 @@ export const Menu = () => {
       </div>
 
       <div className="info__text">
-        <p>Spain</p>
+        <a
+          classname="info__text-github"
+          target="_blank"
+          href="https://github.com/ann-jrti"
+        >
+          <p>github.com/ann-jrti</p>
+        </a>
+
         <p>andreamaso.sm@gmail.com</p>
       </div>
     </section>

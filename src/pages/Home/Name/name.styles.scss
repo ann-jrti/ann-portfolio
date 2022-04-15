@@ -1,10 +1,12 @@
 @import "./../../../scss/base/variables";
 
 .home__author-container {
-    width: 100vw;
+    width: 50vw;
     position: absolute;
     bottom: 0;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .home__author {
@@ -12,4 +14,9 @@
     color: $red;
     font-weight: 900;
     font-family: "Moriston";
+}
+
+.andrea {
+    position: absolute;
+    margin-top: -4.5rem;
 }
