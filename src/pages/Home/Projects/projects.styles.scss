@@ -6,7 +6,7 @@
     margin-right: -10rem;
     flex-direction: column;
     align-items: flex-end;
-    transform: perspective(150vw) rotateY(-60deg);
+    transform: perspective(140vw) rotateY(-65deg);
     overflow: scroll;
     height: 100vh;
     border-right: 2px solid $red;
@@ -46,8 +46,7 @@
         color: $blue;
         margin-right: 2rem;
     }
-}
-
-.sss {
-    padding-bottom: 15rem;
+    &:last-child {
+        padding-bottom: 15rem;
+    }
 }

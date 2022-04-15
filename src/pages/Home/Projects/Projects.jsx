@@ -30,11 +30,7 @@ export const Projects = () => {
       <a href="https://ann-jrti.github.io/ann-pokedex/" target="_blank">
         Pokédex
       </a>
-      <a
-        href="https://ann-jrti.github.io/shopping-cart-ts/"
-        target="_blank"
-        className="sss projects__kanban-board"
-      >
+      <a href="https://ann-jrti.github.io/shopping-cart-ts/" target="_blank">
         Shopping cart
       </a>
     </section>
