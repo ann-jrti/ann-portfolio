@@ -1,7 +1,7 @@
 import './../../../scss/base/_variables.scss';
 import './sinopsis.styles.scss';
 
-export const Menu = () => {
+export const Sinopsis = () => {
   return (
     <section className="info__container">
       <div className="info__text">

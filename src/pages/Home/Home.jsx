@@ -1,5 +1,5 @@
 import './home.styles.scss';
-import { Menu } from './Sinopsis/Sinopsis';
+import { Sinopsis } from './Sinopsis/Sinopsis';
 import { Name } from './Name/Name';
 import { Nav } from './Nav/Nav';
 import { Projects } from './Projects/Projects';
@@ -12,7 +12,7 @@ export const Home = () => {
       <WhistleButton></WhistleButton>
       <Projects></Projects>
       <Name></Name>
-      <Menu></Menu>
+      <Sinopsis></Sinopsis>
     </main>
   );
 };

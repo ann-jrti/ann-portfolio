@@ -1,0 +1,22 @@
+@import "../../scss/base/variables";
+
+.mainn {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.about__section {
+    height: 90vh;
+}
+
+.info {
+    background-color: $blue;
+}
+
+.tech {
+    width: 100vw;
+
+    background-color: $yellow;
+    color: $blue;
+}

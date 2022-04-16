@@ -1,0 +1,29 @@
+@import "./../../../scss/base/variables";
+
+.description__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.description-text__container {
+    width: 400px;
+    color: $white;
+    text-align: justify;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description__greet {
+    font-family: "Moriston";
+    font-size: 3rem;
+    align-self: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.description__greet--yellow {
+    color: $yellow;
+}
