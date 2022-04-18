@@ -52,55 +52,6 @@
     }
 }
 
-@media (max-width: 768px) {
-    .projects__container {
-        -webkit-transform: none;
-        -moz-transform: none;
-        -o-transform: none;
-        -ms-transform: none;
-        transform: none;
-        margin: 2rem;
-        align-items: flex-end;
-        padding-bottom: 10rem;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-
-    .projects__container a {
-        font-size: 1.8rem;
-
-        &:hover {
-            margin-right: 1rem;
-        }
-    }
-
-    .division {
-        height: 100%;
-        border-top: 2px solid $red;
-        width: 100%;
-    }
-}
-
-@media (min-width: 1440px) {
-    .projects__container {
-        padding-top: 3rem;
-    }
-    .projects__container a {
-        &:last-child {
-            padding-bottom: 4rem;
-        }
-    }
-}
-
-@media (min-width: 1920px) {
-    .projects__container {
-        margin-top: 10rem;
-        height: 900px;
-        margin-right: -20rem;
-    }
-}
-
 @media (max-width: 480px) {
     .projects__container {
         -webkit-transform: none;
@@ -136,3 +87,64 @@
         width: 50%;
     }
 }
+
+@media (max-width: 768px) {
+    .projects__container {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+        -ms-transform: none;
+        transform: none;
+        margin: 2rem;
+        align-items: flex-end;
+        padding-bottom: 10rem;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .projects__container a {
+        font-size: 1.8rem;
+
+        &:hover {
+            margin-right: 1rem;
+        }
+        &:last-child {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .division {
+        height: 100%;
+        border-top: 2px solid $red;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .projects__container {
+        padding-top: 3rem;
+    }
+    .projects__container a {
+        &:last-child {
+            padding-bottom: 4rem;
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .projects__container {
+        margin-top: 10rem;
+        height: 850px;
+        margin-right: -20rem;
+    }
+
+    .projects__container a {
+    
+        &:last-child {
+            padding-bottom: 10rem;
+        }
+    }
+}
+
