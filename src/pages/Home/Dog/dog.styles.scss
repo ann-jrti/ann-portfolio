@@ -28,3 +28,9 @@
         left: 22rem;
     }
 }
+
+@media (max-width: 480px) {
+    .hey-dog__animation {
+        animation: none;
+    }
+}

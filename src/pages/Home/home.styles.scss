@@ -4,3 +4,9 @@
     margin: 4rem;
     overflow: hidden;
 }
+
+@media (max-width: 480px) {
+    .home {
+        margin: 2rem;
+    }
+}

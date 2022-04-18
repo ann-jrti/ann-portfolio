@@ -20,3 +20,23 @@
     position: absolute;
     margin-top: -4.5rem;
 }
+
+@media (max-width: 768px) {
+    .home__author {
+        font-size: 4rem;
+    }
+
+    .andrea {
+        margin-top: -3.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home__author {
+        font-size: 3rem;
+    }
+
+    .andrea {
+        margin-top: -2.5rem;
+    }
+}

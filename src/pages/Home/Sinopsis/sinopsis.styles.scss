@@ -20,3 +20,17 @@ $a-tags: "a, a:active, a:hover, a:visited";
 #{$a-tags} {
     color: white;
 }
+
+@media (max-width: 480px) {
+    .home__author {
+        font-size: 3rem;
+    }
+
+    .andrea {
+        margin-top: -2.5rem;
+    }
+
+    .info__container {
+        font-size: 0.9rem;
+    }
+}
