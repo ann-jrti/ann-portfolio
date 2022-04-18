@@ -1,3 +1,4 @@
+import './whistlebutton.styles.scss';
 import { WhistleContext } from '../../../../context/whistle-context';
 import { useContext, useEffect } from 'react';
 
@@ -15,5 +16,11 @@ export const WhistleButton = () => {
     // dog.classList.add('hey-dog__animation'); // start animation
   };
 
-  return <button onClick={handleClick}>Whistle!</button>;
+  return (
+    <div className="whistle-button__container">
+      <button className="whistle-button" onClick={handleClick}>
+        Whistle!
+      </button>
+    </div>
+  );
 };

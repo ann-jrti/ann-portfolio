@@ -1,0 +1,16 @@
+@import "./../../../../scss/base/variables";
+
+.whistle-button {
+    border: none;
+    padding: 0.5rem;
+    background-color: $yellow;
+    border-radius: 0.4rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.whistle-button__container {
+    display: flex;
+}
