@@ -6,4 +6,12 @@
     bottom: 0;
     margin-bottom: 16%;
     margin-left: 21%;
+    font-style: italic;
+}
+
+@media (min-width: 1920px) {
+    .hey-message {
+        margin-bottom: 12%;
+        margin-left: 16%;
+    }
 }

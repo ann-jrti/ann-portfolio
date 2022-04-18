@@ -11,7 +11,17 @@
     height: 600px;
     border-right: 2px solid $red;
     padding-right: 2rem;
+    
 }
+
+@media (min-width: 1920px) {
+    .projects__container {
+        margin-top: 10rem;
+        height: 900px;
+        margin-right: -20rem;
+    }
+}
+
 
 .projects__title {
     color: $lightGrey;

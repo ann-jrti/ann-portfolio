@@ -14,3 +14,23 @@ body {
     height: 100vh;
     overflow: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $blue;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border: solid 2px $red;
+    border-right: 0;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $yellow;
+  }
