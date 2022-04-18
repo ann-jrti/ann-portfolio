@@ -22,7 +22,7 @@ export const Home = () => {
 
   return (
     <main className="home">
-      <Nav></Nav>
+      {/* <Nav></Nav> */}
       {messageAppears ? <HeyMessage></HeyMessage> : ''}
       {/* <WhistleButton></WhistleButton> */}
       <Projects></Projects>
