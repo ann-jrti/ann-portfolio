@@ -9,6 +9,16 @@
     transform: scale(-1, 1);
 }
 
+@media (min-width: 1440px) {
+    .hey-dog {
+        width: 7rem;
+    }
+    .hey-dog__container {
+        margin-left: -11rem;
+        margin-top: -10rem;
+    }
+}
+
 .hey-dog__animation {
     // transition-duration: 1.8s;
     // transition-timing-function: ease-in;

@@ -21,7 +21,17 @@
     margin-top: -4.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+    .home__author {
+        font-size: 3rem;
+    }
+
+    .andrea {
+        margin-top: -2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
     .home__author {
         font-size: 4rem;
     }
@@ -31,12 +41,12 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 1400px) {
     .home__author {
-        font-size: 3rem;
+        font-size: 6rem;
     }
 
     .andrea {
-        margin-top: -2.5rem;
+        margin-top: -5rem;
     }
 }
