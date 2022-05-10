@@ -8,22 +8,22 @@ import { HeyMessage } from './Dog/HeyMessage/HeyMessage';
 import { useEffect, useState } from 'react';
 
 export const Home = () => {
-  const [messageAppears, setMessageAppears] = useState(false);
+  // const [messageAppears, setMessageAppears] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setMessageAppears(true);
-    }, 2400);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setMessageAppears(true);
+  //   }, 2400);
+  // }, []);
 
-  setTimeout(() => {
-    setMessageAppears(false);
-  }, 3800);
+  // setTimeout(() => {
+  //   setMessageAppears(false);
+  // }, 3800);
 
   return (
     <main className="home">
       {/* <Nav></Nav> */}
-      {messageAppears ? <HeyMessage></HeyMessage> : ''}
+      {/* {messageAppears ? <HeyMessage></HeyMessage> : ''} */}
       {/* <WhistleButton></WhistleButton> */}
       <Projects></Projects>
 

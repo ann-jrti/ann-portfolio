@@ -12,9 +12,10 @@ export const Projects = () => {
       >
         Oh lol
       </a>
-      <a href="https://ann-jrti.github.io/kanban-board/" target="blank">
-        Kanban board
+      <a href="https://ann-jrti.github.io/todo-with-redux/" target="blank">
+        To-do app
       </a>
+
       <a
         href="https://ann-jrti.github.io/pug-card-memory-game-ts/"
         target="_blank"
@@ -23,6 +24,9 @@ export const Projects = () => {
       </a>
       <a href="https://ann-jrti.github.io/weather-app/" target="_blank">
         Weather app
+      </a>
+      <a href="https://ann-jrti.github.io/kanban-board/" target="blank">
+        Kanban board
       </a>
       <a href="https://github.com/ann-jrti/quiz-game-CMD" target="_blank">
         Game in cmd
