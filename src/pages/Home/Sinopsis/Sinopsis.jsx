@@ -6,7 +6,7 @@ export const Sinopsis = () => {
     <section className="info__container">
       <div className="info__text">
         <p>Andrea Masó</p>
-        <p>Fullstack developer</p>
+        <p>Full Stack developer</p>
       </div>
 
       <div className="info__text">
