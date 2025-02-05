@@ -1,4 +1,4 @@
-import './projects.styles.scss';
+import "./projects.styles.scss";
 
 export const Projects = () => {
   return (
@@ -21,9 +21,6 @@ export const Projects = () => {
         target="_blank"
       >
         Memory game
-      </a>
-      <a href="https://ann-jrti.github.io/weather-app/" target="_blank">
-        Weather app
       </a>
       <a href="https://ann-jrti.github.io/kanban-board/" target="blank">
         Kanban board
