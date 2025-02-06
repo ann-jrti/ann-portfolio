@@ -1,46 +1,52 @@
 .hey-dog {
-    width: 4.5rem;
+  width: 4.5rem;
 }
 
 .hey-dog__container {
-    position: absolute;
-    margin-left: -8rem;
-    margin-top: -5.5rem;
-    transform: scale(-1, 1);
+  position: absolute;
+  margin-left: -8rem;
+  margin-top: -5.5rem;
+  transform: scale(-1, 1);
 }
 
 @media (min-width: 1440px) {
-    .hey-dog {
-        width: 7rem;
-    }
-    .hey-dog__container {
-        margin-left: -11rem;
-        margin-top: -10rem;
-    }
+  .hey-dog {
+    width: 7rem;
+  }
+  .hey-dog__container {
+    margin-left: -11rem;
+    margin-top: -10rem;
+  }
 }
 
 .hey-dog__animation {
-    // transition-duration: 1.8s;
-    // transition-timing-function: ease-in;
-    // animation-iteration-count: infinite;
-    // margin-left: 18rem;
-    animation-name: doggy;
-    animation-duration: 6s;
+  animation-name: doggy;
+  animation-duration: 6s;
 }
 
 @keyframes doggy {
-    0% {
-        left: 0px;
-        top: 0px;
-    }
+  0% {
+    left: 0px;
+    top: 0px;
+  }
 
-    50% {
-        left: 22rem;
-    }
+  50% {
+    left: 22rem;
+    transform: scaleX(-1);
+  }
+
+  51% {
+    transform: scaleX(1);
+  }
+
+  100% {
+    left: 0px;
+    transform: scaleX(1);
+  }
 }
 
 @media (max-width: 480px) {
-    .hey-dog__animation {
-        animation: none;
-    }
+  .hey-dog__animation {
+    animation: none;
+  }
 }
