@@ -6,11 +6,11 @@ export const Projects = () => {
       <p className="projects__title">Projects</p>
       <div className="division"></div>
       <a
-        href="https://github.com/ann-jrti/final-project-frontend"
+        href="https://need-coffee.netlify.app/"
         target="_blank"
         className="projects__oh-lol"
       >
-        Oh lol
+        Need Coffee
       </a>
       <a href="https://ann-jrti.github.io/todo-with-redux/" target="blank">
         To-do app
@@ -27,9 +27,6 @@ export const Projects = () => {
       </a>
       <a href="https://github.com/ann-jrti/quiz-game-CMD" target="_blank">
         Game in cmd
-      </a>
-      <a href="https://ann-jrti.github.io/ann-pokedex/" target="_blank">
-        Pokédex
       </a>
       <a href="https://ann-jrti.github.io/shopping-cart-ts/" target="_blank">
         Shopping cart
