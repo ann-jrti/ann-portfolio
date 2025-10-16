@@ -10,7 +10,7 @@ export const Projects = () => {
         target="_blank"
         className="projects__oh-lol"
       >
-        Need Coffee
+        Coffee Finder
       </a>
       <a href="https://ann-jrti.github.io/todo-with-redux/" target="blank">
         To-do app
